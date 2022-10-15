@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+</head>
+
+<body>
+    <div class="input">
+        <h2 style="margin: 20px 0px">Thêm sách</h2>
+        <form>
+            <div class="input-area">
+                <label>Tên sách</label>
+                <br>
+                <input type="text" placeholder="abcde" class="inputbox" id="tensach" required>
+                <label>Tác giả</label>
+                <br>
+                <input type="text" placeholder="xyzda" class="inputbox" id="tacgia" required>
+                <label>Giá</label>
+                <br>
+                <input type="text" placeholder="30000" class="inputbox" id="gia" required>
+                <label>Năm xuất bản</label>
+                <br>
+                <input type="text" placeholder="2020" class="inputbox" id="namxuatban" required>
+                <label>Nhà xuất bản</label>
+                <br>
+                <input type="text" placeholder="NXB ABC" class="inputbox" id="nhaxuatban" required>
+                <label>Giới thiệu sách</label>
+                <br>
+                <textarea rows="5" placeholder="Nội dung giới thiệu" class="inputbox" id="gioithieusach"
+                    required></textarea>
+                <label>Hình ảnh</label>
+                <br>
+                <input type="url" placeholder="Link hình ảnh" class="inputbox" id="hinhanh" required>
+            </div>
+            <div class="submit-area">
+                <button name="" id="" class="submit add" onclick="store()">Thêm</button>
+                <button name="" id="" class="submit reset" onclick="xoa()" formnovalidate>Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="result" class="result">
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
