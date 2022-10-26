@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport"
         content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
 </head>
-
 <body>
     <div class="input">
-        <h2 style="margin: 20px 0px">Thêm sách</h2>
+        <h1 style="margin: 20px 0px">Website Rao vặt</h1>
         <form>
             <div class="input-area">
-                <label>Tên sách</label>
+                <label>Tên sản phẩm</label>
                 <br>
-                <input type="text" placeholder="abcde" class="inputbox" id="tensach" required>
-                <label>Tác giả</label>
-                <br>
-                <input type="text" placeholder="xyzda" class="inputbox" id="tacgia" required>
+                <input type="text" placeholder="Tai nghe" class="inputbox" id="tensanpham" required>
                 <label>Giá</label>
                 <br>
                 <input type="text" placeholder="30000" class="inputbox" id="gia" required>
-                <label>Năm xuất bản</label>
+                <label>Người bán</label>
                 <br>
-                <input type="text" placeholder="2020" class="inputbox" id="namxuatban" required>
-                <label>Nhà xuất bản</label>
+                <input type="text" placeholder="Nguyễn A" class="inputbox" id="nguoiban" required>
+                <label>Địa chỉ liên hệ/ Số điện thoại</label>
                 <br>
-                <input type="text" placeholder="NXB ABC" class="inputbox" id="nhaxuatban" required>
-                <label>Giới thiệu sách</label>
+                <input type="text" placeholder="Thủ Đức / 09xxxxxxxx" class="inputbox" id="dcsdt" required>
+                <label>Tình trạng sản phẩm</label>
                 <br>
-                <textarea rows="5" placeholder="Nội dung giới thiệu" class="inputbox" id="gioithieusach"
+                <input type="text" placeholder="99%" class="inputbox" id="tinhtrang" required>
+                <label>Mô tả chi tiết</label>
+                <br>
+                <textarea rows="5" placeholder="Chi tiết sản phẩm" class="inputbox" id="mota"
                     required></textarea>
-                <label>Hình ảnh</label>
+                <!-- <label>Hình ảnh</label> -->
                 <br>
                 <input type="url" placeholder="Link hình ảnh" class="inputbox" id="hinhanh" required>
             </div>
@@ -42,13 +40,9 @@
             </div>
         </form>
     </div>
-
     <div id="result" class="result">
-
     </div>
-
     <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
-
 </html>
